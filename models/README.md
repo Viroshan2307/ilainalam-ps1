@@ -16,7 +16,10 @@
 | `llama3_2_1b_8da4w.pte` | Llama 3.2 1B-Instruct for ExecuTorch: 8-bit dynamic activations, 4-bit weights (group 32), 4-bit embeddings, KV cache, SDPA with KV cache, XNNPACK, max context 1024 |
 | `tokenizer.model` | Llama 3.2 tokenizer |
 
-**Download:** _LINK TO BE ADDED (GitHub Release / Google Drive)_
+**Download:** from the [v1.0 release](https://github.com/meranjith28/ilainalam-ps1/releases/tag/v1.0):
+[`llama3_2_1b_8da4w.pte`](https://github.com/meranjith28/ilainalam-ps1/releases/download/v1.0/llama3_2_1b_8da4w.pte) ·
+[`tokenizer.model`](https://github.com/meranjith28/ilainalam-ps1/releases/download/v1.0/tokenizer.model) ·
+ready-to-install app [`IlaiNalam-v1.0.apk`](https://github.com/meranjith28/ilainalam-ps1/releases/download/v1.0/IlaiNalam-v1.0.apk)
 
 **Or build them yourself:** run `notebooks/02_llama_to_executorch.ipynb` on Kaggle or Colab. You need a Hugging Face token whose account has accepted the Llama 3.2 licence (`meta-llama/Llama-3.2-1B-Instruct`).
 
