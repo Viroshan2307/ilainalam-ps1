@@ -69,7 +69,7 @@ Lab = PlantVillage test split. Real = PlantDoc field photos of the same 38 class
 
 ### On the phone
 
-Measured in the app (*Speed & memory* screen, phone unplugged; power from the battery's current × voltage). Full table: [`docs/benchmarks.md`](docs/benchmarks.md). Full write-up: [`docs/IlaiNalam_Final_Report.pdf`](docs/IlaiNalam_Final_Report.pdf).
+Measured in the app (*Speed & memory* screen, phone unplugged; power from the battery's current × voltage). Full table: [`docs/benchmarks.md`](docs/benchmarks.md).
 
 | | Moto G34 5G (Snapdragon 695) | OPPO CPH2889 (MediaTek MT6835) |
 |---|---|---|
