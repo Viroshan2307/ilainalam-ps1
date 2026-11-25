@@ -6,7 +6,7 @@ A farmer photographs a leaf. The phone finds the leaf, measures the diseased spo
 
 | | |
 |---|---|
-| Platform | Android 9+ (arm64-v8a), tested on OnePlus Nord 4, Motorola Moto G34, OPPO CPH2889 |
+| Platform | Android 9+ (arm64-v8a), tested on Motorola Moto G34 5G (Snapdragon 695) and OPPO CPH2889 (MediaTek MT6835) |
 | On-device AI | ExecuTorch 1.5.1 runtime, XNNPACK backend (Arm CPU, NEON-optimised kernels) |
 | Vision | Leaf-photo check (MobileNetV3-Small FP32) + disease model v4 (EfficientNet-B2, INT8, 288 px) |
 | Language model | Llama 3.2 1B-Instruct, 8-bit dynamic activations / 4-bit weights (8da4w), KV cache |
@@ -69,7 +69,17 @@ Lab = PlantVillage test split. Real = PlantDoc field photos of the same 38 class
 
 ### On the phone
 
-Measured in the app (*Speed & memory* screen, phone unplugged; power from the battery's current × voltage). See [`docs/benchmarks.md`](docs/benchmarks.md).
+Measured in the app (*Speed & memory* screen, phone unplugged; power from the battery's current × voltage). Full table: [`docs/benchmarks.md`](docs/benchmarks.md). Full write-up: [`docs/IlaiNalam_Final_Report.pdf`](docs/IlaiNalam_Final_Report.pdf).
+
+| | Moto G34 5G (Snapdragon 695) | OPPO CPH2889 (MediaTek MT6835) |
+|---|---|---|
+| Diagnosis (leaf-photo check + disease model), median | **72 ms** | **75 ms** |
+| Leaf + spot analysis, median | 83 ms | 106 ms |
+| Llama 3.2 1B load | 3.1 s | 5.7 s |
+| Llama writing speed | **9.1 tokens/s** | **8.4 tokens/s** |
+| Llama prompt reading | 61.8 tokens/s | 58.9 tokens/s |
+| App memory with Llama loaded | ~1.0 GB | ~1.0 GB |
+| Energy per scan (above idle) | ~208 mJ | — |
 
 ## Repository map
 
