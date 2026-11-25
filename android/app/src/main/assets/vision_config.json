@@ -1,0 +1,9 @@
+{
+ "version": "v4",
+ "disease_model": "crop_disease_v4_int8.pte",
+ "input_size": 288,
+ "tta_flip": false,
+ "min_confidence": 0.5,
+ "arch": "efficientnet_b2",
+ "note": "tta_flip off: single pass is as accurate on real photos (72.5 % vs 71.6 % mirrored, notebook 04) and twice as fast"
+}

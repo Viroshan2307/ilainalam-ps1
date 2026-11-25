@@ -1,0 +1,9 @@
+{
+ "S_MIN": 40,
+ "V_MIN": 30,
+ "GREEN_H_LO": 35,
+ "GREEN_H_HI": 85,
+ "DARK_V": 60,
+ "MILD": 0.1,
+ "MODERATE": 0.25
+}

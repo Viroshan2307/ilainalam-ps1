@@ -1,0 +1,21 @@
+IlaiNalam — third-party notices
+
+Built with Llama.
+Llama 3.2 is licensed under the Llama 3.2 Community License,
+Copyright © Meta Platforms, Inc. All Rights Reserved.
+License: https://www.llama.com/llama3_2/license/
+Acceptable Use Policy: https://www.llama.com/llama3_2/use-policy/
+The Llama model files are not stored in this repository. They are produced from
+meta-llama/Llama-3.2-1B-Instruct with notebooks/02_llama_to_executorch.ipynb
+after accepting the license on Hugging Face.
+
+ExecuTorch (https://github.com/pytorch/executorch) — BSD-style license, Meta Platforms, Inc.
+PyTorch / torchvision — BSD-style license. Pretrained ImageNet weights from torchvision.
+AndroidX, Jetpack Compose, CameraX — Apache License 2.0.
+
+Datasets used for training/evaluation (not redistributed here):
+- PlantVillage (Hughes & Salathé, 2015, arXiv:1511.08060)
+- PlantDoc (Singh et al., CODS-COMAD 2020), CC BY 4.0
+- Describable Textures Dataset (Cimpoi et al., CVPR 2014)
+- COCO val2017 (Lin et al., 2014), CC BY 4.0 annotations / Flickr image terms
+- Labeled Faces in the Wild (Huang et al., 2007)

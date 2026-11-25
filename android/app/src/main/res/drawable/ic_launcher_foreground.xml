@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Simple leaf mark for the launcher icon -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,26 C72,30 82,46 78,64 C75,78 63,84 54,84 C45,84 33,78 30,64 C26,46 36,30 54,26 Z" />
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M53,36 L55,36 L55,80 L53,80 Z" />
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M54,52 L66,44 L67,46 L55,55 Z M54,64 L42,56 L41,58 L53,67 Z M54,46 L44,40 L43,42 L53,49 Z" />
+</vector>

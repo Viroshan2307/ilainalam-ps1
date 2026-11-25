@@ -1,0 +1,8 @@
+{
+ "version": "v4",
+ "disease_model": "crop_disease_v4_int8.pte",
+ "input_size": 288,
+ "tta_flip": true,
+ "min_confidence": 0.5,
+ "arch": "efficientnet_b2"
+}

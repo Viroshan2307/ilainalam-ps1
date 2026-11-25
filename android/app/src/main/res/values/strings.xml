@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- All other UI text lives in i18n/Strings.kt (English, Hindi, Tamil) so the language can switch instantly. -->
+    <string name="app_name">IlaiNalam</string>
+</resources>
