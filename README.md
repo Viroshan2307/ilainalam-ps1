@@ -142,4 +142,9 @@ Full steps: [`android/BUILD_AND_RUN.md`](android/BUILD_AND_RUN.md). In short:
 
 ## Team
 
-_Team name · members · college · faculty mentor — to be filled in._
+**Team Favela** · Saveetha Engineering College, Chennai
+
+| | |
+|---|---|
+| Members | Ranjith G · Viroshan Suresh · Kavish Rajeshkumar |
+| Faculty mentor | Dinesh Ram G |
